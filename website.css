@@ -72,9 +72,10 @@ h1 {
 
 .row:nth-child(3) .hero-unit tr:hover a,
 .dropdown-menu li > a {
-    /*color: #005580;*/
     color: #999;
 }
+
+.dropdown-menu { margin-top: -1px; }
 
 .row:nth-child(5) .row {
     margin-top:50px;
@@ -201,33 +202,46 @@ h1 {
 #otherproj .tab-content { min-height: 120px; }
 
 div#w1 img,
-div#w2 img,
-div#w3 img,
 div#w4 img,
-div#w5 img,
-div#w6 img {
+div#w5 img {
   height:80px;
-  display:block;
-  float:right;
 }
 
+#w1 *,
+#w2 *,
+#w3 *,
+#w4 *,
+#w5 *,
+#w6 * { text-align:center; }
+
 ul.nav.nav-tabs { margin:0px; }
-div.tab-content.well { border-radius: 0px; }
+div.tab-content.well {
+  border-radius: 0px;
+  background-color: #fff;
+}
 
 .caret {
   opacity: 1;
-  border-top-color: #fff !important;
+  border-top-color: #ccc !important;
 }
 
 .carousel-control {
-  padding-top: 60px;
-  margin-top: -25%;
-  top: 40%;
-  height: 100px;
-  opacity: 0.2;
+  top: -25px;
+  padding-top: 0px;
+  line-height: 20px;
+  height: 30px;
+  opacity: 0.1;
+  font-size: 3em;
+  width:30%;
 }
+.carousel-control.left { left:200px; }
+.carousel-control.right { right:10px; }
 
 .pull-down {
 margin-top: 20%;
 clear: both;
+}
+
+#myTab.nav li a {
+padding-right: 30px;
 }
