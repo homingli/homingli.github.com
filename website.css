@@ -113,6 +113,7 @@ h1 {
 
 .txcenter { text-align:center; }
 .txleft { text-align:left; }
+.txright { text-align:right; }
 
 #awardstbl tr {
     font-size: 20px;
@@ -212,36 +213,38 @@ div#w5 img {
 #w3 *,
 #w4 *,
 #w5 *,
+#ss3 .item,
 #w6 * { text-align:center; }
 
 ul.nav.nav-tabs { margin:0px; }
-div.tab-content.well {
+
+.tab-content.well {
   border-radius: 0px;
   background-color: #fff;
 }
+
+#myTab.nav li a { padding-right: 30px; }
 
 .caret {
   opacity: 1;
   border-top-color: #ccc !important;
 }
 
-.carousel-control {
-  top: -25px;
+#layoutscarousel .carousel-control {
+  top: -20px;
   padding-top: 0px;
-  line-height: 20px;
+  width:30%;
   height: 30px;
+  line-height: 20px;
+}
+
+.carousel-control {
   opacity: 0.1;
   font-size: 3em;
-  width:30%;
-}
-.carousel-control.left { left:200px; }
-.carousel-control.right { right:10px; }
-
-.pull-down {
-margin-top: 20%;
-clear: both;
 }
 
-#myTab.nav li a {
-padding-right: 30px;
-}
+#layoutscarousel .carousel-control.left { left:200px; }
+#layoutscarousel .carousel-control.right { right:10px; }
+
+
+
