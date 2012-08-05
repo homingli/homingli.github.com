@@ -69,28 +69,26 @@ $('.modal:has(.carousel)').on('shown', function() {
     $carousel.find('.active').trigger($.support.transition.end);
   }
 
-  $carousel.carousel({ interval: 2500 });
+  $carousel.carousel({ interval: 3000 });
 });
 
-$('.modal:has(.carousel').on('hidden', function() {
+$('.modal:has(.carousel)').on('hidden', function() {
   $(this).find('.carousel').carousel('pause');
 });
 
-// need some more work...
+// ugly, need some more work...
 $('a[href*=#]:not(.dropdown-toggle)').on('shown', function(e) {
   var pattern=/#.+/gi;
-  var last_id=e.relatedTarget.toString().match(pattern).toString();
   var this_id=e.target.toString().match(pattern).toString();
-  var $l_carousel = $(last_id+":has(.carousel)").find('.carousel');
   var $carousel = $(this_id+":has(.carousel)").find('.carousel');
-  if ($l_carousel.length == 1) {
-     $l_carousel.carousel('pause');
-  }
+  $('#ss3carousel .carousel').carousel('pause');
+  $('#hp4carousel .carousel').carousel('pause');
+  $('#hp5carousel .carousel').carousel('pause');
   if ($carousel.length === 1) {
       if ($carousel.data('carousel') && $carousel.data('carousel').sliding) {
         $carousel.find('.active').trigger($.support.transition.end);
       }
-      $carousel.carousel({ interval: 2500 });
+      $carousel.carousel({ interval: 3000 });
   }
 });
 

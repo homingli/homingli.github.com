@@ -43,11 +43,19 @@ h1 {
 
 
 .row:nth-child(1) {
-    background: url('http://src.sencha.io/https://fbcdn-sphotos-a.akamaihd.net/hphotos-ak-ash4/257443_899706828351_3115224_o.jpg');
+    background: url('https://fbcdn-sphotos-a.akamaihd.net/hphotos-ak-ash4/257443_899706828351_3115224_o.jpg');
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-background-size: cover;
 }
 
 .row:nth-child(2) {
     background: url('https://fbcdn-sphotos-a.akamaihd.net/hphotos-ak-ash4/483054_10100364029054861_1364590232_n.jpg');
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-background-size: cover;
 }
 
 .row:nth-child(2) .hero-unit {
@@ -84,14 +92,14 @@ h1 {
 }
 
 .row {
-    background: url('http://src.sencha.io/http://www.hv-designs.co.uk/tutorials/webdesign_layout9/wood.jpg');
+    background: url('http://www.hv-designs.co.uk/tutorials/webdesign_layout9/wood.jpg');
     padding-top: 150px;
     margin-right: -20px;
     min-height:100%; !important
-    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    -webkit-background-size: cover;
 }
 
 .row-inner {
@@ -213,8 +221,11 @@ div#w5 img {
 #w3 *,
 #w4 *,
 #w5 *,
+#w6 *,
 #ss3 .item,
-#w6 * { text-align:center; }
+#hp4 .item,
+#hp5 .item
+{ text-align:center; }
 
 ul.nav.nav-tabs { margin:0px; }
 
@@ -246,5 +257,10 @@ ul.nav.nav-tabs { margin:0px; }
 #layoutscarousel .carousel-control.left { left:200px; }
 #layoutscarousel .carousel-control.right { right:10px; }
 
+div[id*=hp]:not(#hp4):not(#hp4carousel) img {
+  width:400px;
+}
 
-
+#hp5carousel .active img {
+  display:inline;
+}
