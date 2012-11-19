@@ -1,0 +1,10 @@
+# for mac
+.DS_Store
+
+# for vim
+*~
+*.swp
+*.swo
+
+# proj
+*unused*
