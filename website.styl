@@ -3,11 +3,20 @@
   height: 100%
 
 body
-  padding-bottom: 40px
+  padding-bottom: 0px
   background-color: #000
   font-size: 18px
   font-weight: 200
   line-height: 27px
+  background: url('https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-ash4/257443_899706828351_3115224_o.jpg') fixed
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+  -webkit-background-size: cover
+
+#cover
+  background: url("")
+  background-color: transparent
 
 h1
   padding-bottom: 10px
@@ -35,20 +44,6 @@ h1
   font-size: 120%
   padding: 30px
 
-#cover
-  background: url('https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-ash4/257443_899706828351_3115224_o.jpg')
-  -moz-background-size: cover
-  -o-background-size: cover
-  background-size: cover
-  -webkit-background-size: cover
-
-#profile
-  background: url('https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-ash4/483054_10100364029054861_1364590232_n.jpg')
-  -moz-background-size: cover
-  -o-background-size: cover
-  background-size: cover
-  -webkit-background-size: cover
-
 .row:nth-child(2) .hero-unit
   text-align: right
 
@@ -71,10 +66,13 @@ h1
 .dropdown-menu
   margin-top: -1px
 
-.row:nth-child(5) .row
-  margin-top: 50px
-  padding-top: 0px
-  background: none
+.row:nth-child(5)
+  background: url("")
+  .row
+    margin-top: 50px
+    padding-top: 0px
+    background: url("")
+    background-color: #fff
 
 .row
   background: url('img/wood.jpg')
@@ -89,8 +87,6 @@ h1
   background: white
 
 .hero-unit
-  margin-left: auto
-  margin-right: auto
   background: rgba(255, 255, 255, 0.8 )
 
 .center
@@ -120,9 +116,15 @@ h1
   float: right
 
 #footer, #copyright
-  padding-top: 10px
-  padding-bottom: 10px
+  padding-top: 0px
+  padding-bottom: 0px
   color: #666
+
+#footer-container
+  height 30px
+  background-color #000
+  width 100%
+  vertical-align middle
 
 .contact-icon
   width: 64px
@@ -283,6 +285,7 @@ div[id*=hp]:not(#hp4):not(#hp4carousel) img
 
   #contact div.span2.row-inner
     margin-top: 20px
+
 
   #footer, #copyright
     font-size: 80%
