@@ -14,7 +14,7 @@ h1{padding-bottom:10px;font-size:250% !important}
 .dropdown-menu{margin-top:-1px}
 .row:nth-child(5){background:url("");}
 .row:nth-child(5) .row{margin-top:50px;padding-top:0;background:url("");background-color:#fff}
-.row{background:url("img/wood.jpg");padding-top:150px;min-height:100%;!important-moz-background-size:cover;-o-background-size:cover;background-size:cover;-webkit-background-size:cover}
+.row{background:url("img/wood.jpg");padding-top:150px;min-height:100%;-moz-background-size:cover;-o-background-size:cover;background-size:cover;-webkit-background-size:cover}
 .row-inner p{background:#fff}
 .hero-unit{background:rgba(255,255,255,0.8)}
 .center{margin-left:auto;margin-right:auto}
