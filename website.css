@@ -1,5 +1,5 @@
 .container,html{height:100%}
-body{padding-bottom:0;background-color:#000;font-size:18px;font-weight:200;line-height:27px;background:url("https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-ash4/257443_899706828351_3115224_o.jpg") fixed;-moz-background-size:cover;-o-background-size:cover;background-size:cover;-webkit-background-size:cover}
+body{padding-bottom:0;font-size:18px;font-weight:200;line-height:27px;background:url("https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-ash4/257443_899706828351_3115224_o.jpg") fixed;-moz-background-size:cover;-o-background-size:cover;background-size:cover;-webkit-background-size:cover}
 #cover{background:url("");background-color:transparent}
 h1{padding-bottom:10px;font-size:250% !important}
 .navbar .brand{display:block;float:right;padding:18px 20px 12px;margin-left:-20px;font-size:40px;font-weight:800;line-height:1;color:#fff}
@@ -12,10 +12,9 @@ h1{padding-bottom:10px;font-size:250% !important}
 .row:nth-child(3) .hero-unit tr:hover{color:#000}
 .row:nth-child(3) .hero-unit tr:hover a,.dropdown-menu li > a{color:#999}
 .dropdown-menu{margin-top:-1px}
-.row:nth-child(5){background:url("");}
-.row:nth-child(5) .row{margin-top:50px;padding-top:0;background:url("");background-color:#fff}
-.row{background:url("img/wood.jpg");padding-top:150px;min-height:100%;-moz-background-size:cover;-o-background-size:cover;background-size:cover;-webkit-background-size:cover}
-.row-inner p{background:#fff}
+.row:nth-child(5){background:none;}
+.row:nth-child(5) .row{margin-top:50px;padding-top:0;background:none;background-color:#fff;padding-bottom:0}
+.row{background:url("img/wood.jpg");background-color:#000;padding-top:150px;padding-bottom:150px;min-height:100%;-moz-background-size:cover;-o-background-size:cover;background-size:cover;-webkit-background-size:cover}
 .hero-unit{background:rgba(255,255,255,0.8)}
 .center{margin-left:auto;margin-right:auto}
 .txcenter{text-align:center}
@@ -67,6 +66,5 @@ div[id*=hp]:not(#hp4):not(#hp4carousel) img{width:400px}
 #footer,#copyright{font-size:80%}
 #portfolio .nav-tabs,#portfolio .tab-content{display:none;visibility:hidden}
 #profilepic{margin-top:50px;margin-bottom:-50px;margin-left:auto;margin-right:auto}
-#cover,#profile{background:url("img/wood.jpg")}
 #m-portfolio{display:inherit;visibility:visible}
 }
