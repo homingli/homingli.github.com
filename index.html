@@ -1,21 +1,407 @@
-<!DOCTYPE html>
-<html lang="en"><head>
-    <meta charset="UTF-8"></meta>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
-    <meta http-equiv="Cache-control" content="public"></meta>
-    <meta http-equiv="Cache-control" content="max-age=604800"></meta>
+<!doctype html>
+<html lang="en">
 
-    <title>Ho Ming Li: the Hungry Fighter</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-    <meta name="description" content=""></meta>
-    <meta name="author" content="Ho Ming Li"></meta>
-    <meta name="google-translate-customization" content="2108bbe3a6d41cfa-b687f66cd2586e32-g832d8dc4d92c9a89-c"></meta>
+	<head>
+		<meta charset="utf-8">
 
-    <link rel="shortcut icon" href="/favicon.ico">
+		<title>Ho Ming Li - The Hungry Fighter</title>
+
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+<style>
+
+    section.present { background-color: rgba(0,0,0,0.7); -webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px; }
+    section.present div, section.present h3 {padding-left: 20px;padding-right: 20px;}
+    section.present tr:hover { background-color: rgba(255,255,255,0.2); }
+    .left, .left * { text-align: left }
+    .right { text-align: right }
+    .moveright:hover { 
+       transition: all .5s;
+       -moz-transition: all .5s;
+       -webkit-transition: all .5s;
+        /*General*/ transform:translateX(50px);
+        /*Firefox*/ -moz-transform:translateX(50px);
+        /*Microsoft Internet Explorer*/ -ms-transform:translateX(50px);
+        /*Chrome, Safari*/ -webkit-transform:translateX(50px);
+        /*Opera*/ -o-transform:translateX(50px);
+    }
+
+    .moveup:hover { 
+        /*General*/ transform:translateY(-10px);
+        /*Firefox*/ -moz-transform:translateY(-10px);
+        /*Microsoft Internet Explorer*/ -ms-transform:translateY(-10px);
+        /*Chrome, Safari*/ -webkit-transform:translateY(-10px);
+        /*Opera*/ -o-transform:translateY(-10px);
+    }
+
+.zoom:hover {
+    transform: scale(1.5,1.5);
+    -ms-transform: scale(1.5,1.5); /* IE 9 */
+    -webkit-transform: scale(1.5,1.5); /* Safari and Chrome */
+}
+    .fade {
+       opacity: 0.8;
+       transition: opacity .25s ease-in-out;
+       -moz-transition: opacity .25s ease-in-out;
+       -webkit-transition: opacity .25s ease-in-out;
+    }
+
+    .fade:hover {
+      opacity: 1;
+    }
+
+    #tagline{
+        opacity: 0.3;
+        animation:fadeout 4s;
+        -webkit-animation:fadeout 4s; /* Safari and Chrome */
+    }
+
+    #profilepic { width: 30%;  -webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;}
+
+.blink { 
+    visibility: hidden;
+    opacity: 0.3;
+    animation: blink 2s infinite; 
+    -webkit-animation: blink 2s infinite; 
+}
+
+    @keyframes blink
+    {
+        0%,100%  {opacity: 0;}
+        50%   {opacity: 0.3;}
+    }
+
+    @-webkit-keyframes blink /* Safari and Chrome */
+    {
+        0%,100%  {opacity: 0;}
+        50%   {opacity: 0.3;}
+    }
+
+    @keyframes fadeout
+    {
+        0%,50%   {opacity: 0;}
+        75%   {opacity: 1;}
+        100%  {opacity: 0.3;}
+    }
+
+    @-webkit-keyframes fadeout /* Safari and Chrome */
+    {
+        0%,50%   {opacity: 0;}
+        75%   {opacity: 1;}
+        100%  {opacity: 0.3;}
+    }
+
+.icon-circle-arrow-right {
+/*General*/ transform:translateY(-8px);
+/*Firefox*/ -moz-transform:translateY(-8px);
+/*Microsoft Internet Explorer*/ -ms-transform:translateY(-8px);
+/*Chrome, Safari*/ -webkit-transform:translateY(-8px);
+/*Opera*/ -o-transform:translateY(-8px);
+}
+.icon-trophy {
+/*General*/ transform:translateY(-15px);
+/*Firefox*/ -moz-transform:translateY(-15px);
+/*Microsoft Internet Explorer*/ -ms-transform:translateY(-15px);
+/*Chrome, Safari*/ -webkit-transform:translateY(-15px);
+/*Opera*/ -o-transform:translateY(-15px);
+}
+.contacts i { opacity: 0.5; color: #cff }
+.contacts i:hover { opacity: 1; }
+i[class*='icon-']{display:inline-block;vertical-align:middle;-o-transition:all .3s;-moz-transition:all .3s;-webkit-transition:all .3s;-ms-transition:all .3s}
+
+</style>
+
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+                    <img id="profilepic" class="fade" src="homingli.jpg" />
+					<h1 id="name">&nbsp;</h1>
+					<h3 id="tagline">The Hungry Fighter</h3>
+                    <a href="#/1" class="navigate-right"><i class="blink icon-double-angle-right"></i></a>
+				</section>
+                <section data-markdown data-background="img/bg/2.jpg">
+                  ## Hungry Fighter
+                  [Hungry](http://www.google.com/search?q=define%3A+hungry) : 
+                  Desire to **Learn**, 
+                  Desire to _Know_, 
+                  Desire to _**Win**_
+
+                  [Fighter](http://www.google.com/search?q=define%3A+fighter) : 
+                  Just keep moving, 
+                  Don't give up
+                </section>
+                <section class="left" data-background="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-ash4/265240_899706489031_1798753_o.jpg">
+                  <h3>choose your adventure</h3>
+                  <a href="#/awards/"><h3 class="moveright">awards <i class="icon-circle-arrow-right"></i></h3></a>
+                  <a href="#/personal/"><h3 class="moveright">personal <i class="icon-circle-arrow-right"></i></h3></a>
+                  <a href="#/professional/"><h3 class="moveright">professional <i class="icon-circle-arrow-right"></i></h3></a>
+                </section>
+                <section>
+                    <section id="awards">
+                      <h1><i class="icon-trophy"></i> Awards</h1>
+                      <h3>Loud and Proud</h3>
+                      <i class="icon-double-angle-down"></i>
+                    </section>
+                    <section class="left" data-background="img/bg/sunset.jpg">
+<table>
+<tbody>
+<tr>
+<td><h3>2012</h3></td>
+<td><i class="icon-caret-right"></i> Winner of International Space Apps Challenge [Vancouver Node]</td>
+</tr>
+<tr>
+<td><h3>2011</h3></td>
+<td><i class="icon-caret-right"></i> 2nd Place in Startup Weekend Vancouver 2011</td>
+</tr>
+<tr>
+<td><h3>2010</h3></td>
+<td><i class="icon-caret-right"></i> Leader of the Year <a href="http://www.28scouts.org/">28th Richmond Scouts Group</a></td>
+</tr>
+<tr>
+<td><h3>2009</h3></td>
+<td><i class="icon-caret-right"></i> Western Finalists <a href="http://enterprizecanada.org/">Enterprize</a> Business Competition</td>
+</tr>
+<tr>
+<td><h3>2008</h3></td>
+<td><i class="icon-caret-right"></i> <a href="http://www-01.ibm.com/software/data/db2/">DB2</a> 9 Family Fundamentals Certification</td>
+</tr>
+</tbody>
+</table>
+                    </section>
+
+        		    <section class="left" data-background="img/bg/fire.jpg">
+<table>
+<tbody>
+<tr>
+<td><h3>2004</h3></td>
+<td><i class="icon-caret-right"></i> <a href="http://en.wikipedia.org/wiki/Wood_Badge_(Boy_Scouts_of_America">Wood Badge</a> > Advanced Leadership Skills training</td>
+</tr>
+<tr>
+<td><h3>2003</h3></td>
+<td><i class="icon-caret-right"></i> 92.2th percentile in Leonardo Da Vinci Competition</td>
+</tr>
+<tr>
+<td><h3>2002</h3></td>
+<td><i class="icon-caret-right"></i> <a href="http://en.wikipedia.org/wiki/Queen's_Venturer_Award">Queen's Venturer Award</a></td>
+</tr>
+<tr>
+<td><h3>2002</h3></td>
+<td><i class="icon-caret-right"></i> Silver <a href="http://en.wikipedia.org/wiki/The_Duke_of_Edinburgh's_Award">Duke of Edinburgh's Award</a></td>
+</tr>
+<tr>
+<td><h3>2002</h3></td>
+<td><i class="icon-caret-right"></i> Distinction in <a href="http://www.cemc.uwaterloo.ca/contests/contests.html">Gauss, Pascal, Cayley, and Euclid</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+
+                </section>
+        		<section>
+                    <section id="personal">
+                      <h1><i class="icon-laptop"></i> Personal</h1>
+                      <h3>What a guy</h3>
+                      <i class="icon-double-angle-down"></i>
+                    </section>
+                    <section data-markdown data-background="img/bg/d90mirror.jpg">
+                      ## He Shoots
+                      with his Nikon D90
+
+                      Tamron 17-50mm f/2.8 lens 
+                    </section>
+        		    <section data-markdown data-background="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-ash3/60823_10150250545345531_6126080_n.jpg">
+                      ## He Moves
+                      hikes, swims, and play balls
+				    </section>
+        		    <!--section data-markdown data-background="img/bg/8bitdivider.jpg"-->
+        		    <section data-markdown data-background="img/bg/firealarm.jpg">
+                      ## He Does
+                      ### Software | Hardware | Business 
+                      He's a Generalist/Do-It-All
+
+                      Sometimes He Makes Things
+
+                      Sometimes He Breaks Things
+				    </section>
+				</section>
+        		<section>
+        		    <section id="professional">
+                      <h1><i class="icon-cloud"></i> Professional</h1>
+                      <h3>Walk into History</h3>
+                      <i class="icon-double-angle-down"></i>
+				    </section>
+                <section data-background="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-ash4/257443_899706828351_3115224_o.jpg">
+                  <h2>Bachelor of Applied Science @UBC</h2>
+                  <h3>Major Electrical Engineering</h3>
+<i class="icon-check"></i> Minor Commerce<br />
+<i class="icon-check"></i> Co-op Experience
+                </section>
+                    <section data-background="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-ash4/257443_899706828351_3115224_o.jpg" class="left">
+        		        <div>
+                            <h2><a href="http://www.activestate.com">ActiveState</a> - 2012 to Present</h2>
+                            <h4>Sales Engineer/Cloud Engineer | <a href="http://www.stackato.com">Stackato</a></h4>
+                            <!--<div><iframe width="500" height="250" src="https://www.youtube-nocookie.com/embed/n_aKBJNovdU?feature=player_embedded" frameborder="0" allowfullscreen ></iframe></div>-->
+                        </div>
+<br />
+        		        <div class="fragment roll-in">
+                            <h2><a href="http://www.netapp.com">NetApp</a> - 2010 to 2012</h2>
+                            <h4>Technical Architect | <a href="http://www.netapp.com/us/products/storage-systems/index.aspx">Data Storage Systems</a> | Healthcare</h4>
+                        </div>
+                    </section>
+                    <section data-background="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-ash4/257443_899706828351_3115224_o.jpg" class="left">
+        		        <div>
+                            <h2><a href="http://www.netapp.com/us/company/news/press-releases/news-rel-20100514-bycast.aspx">Bycast</a> - 2009 to 2010</h2>
+                            <h4>Solution Engineer | <a href="http://www.netapp.com/us/products/storage-software/storagegrid/">StorageGRID System</a></h4>
+                        </div>
+<br />
+        		        <div class="fragment roll-in">
+                            <h2><a href="http://www.ibm.com/ca/en/">IBM</a> - 2007 to 2009</h2>
+                            <h4>Compiler Test | <a href="http://www-03.ibm.com/software/products/us/en/ccompfami/">XL C/C++</a> | Linux/AIX (Cell, Blue Gene, x86)</h4>
+                        </div>
+                    </section>
+				</section>
+
+				<section data-background="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-ash4/389973_10100637492586751_635697834_n.jpg">
+					<h2>Quotes to live by</h2>
+					&ldquo;If not now, When?&rdquo;<br />
+					&ldquo;I think I can, I think I can.&rdquo;<br />
+					&ldquo;Where there is no struggle, there is no strength.&rdquo;
+				</section>
+
+				<section data-state="contacts" data-background="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-ash4/999351_10100669084855591_155771677_n.jpg">
+					<h2>He's Everywhere...</h2>
+          <h2>
+        <script type="text/javascript">
+        //<![CDATA[
+            <!-- //encoded <a href="emailaddr"> -->
+        <!--
+        var x="function f(x){var i,o=\"\",l=x.length;for(i=0;i<l;i+=2) {if(i+1<l)o+=" +
+        "x.charAt(i+1);try{o+=x.charAt(i);}catch(e){}}return o;}f(\"ufcnitnof x({)av" +
+        " r,i=o\\\"\\\"o,=l.xelgnhtl,o=;lhwli(e.xhcraoCedtAl(1/)3=!94{)rt{y+xx=l;=+;" +
+        "lc}tahce({)}}of(r=i-l;1>i0=i;--{)+ox=c.ahAr(t)i};erutnro s.buts(r,0lo;)f}\\" +
+        "\"(0),1\\\"\\\\u}77\\\\1j\\\\7`17\\\\\\\\cbRS5_02\\\\\\\\PVZYuQ_]_UBYEA26\\" +
+        "\\0D\\\\E^FA7K00\\\\\\\\6x03\\\\\\\\DDwR|>9 w2rt|bdfe<j~xcdo\\\\n(\\\"}fo;n" +
+        " uret}r);+)y+^(i)t(eAodrCha.c(xdeCoarChomfrg.intr=So+7;12%={y+)i+l;i<0;i=r(" +
+        "foh;gten.l=x,l\\\"\\\\\\\"\\\\o=i,r va){,y(x fontincfu)\\\"\")"              ;
+        while(x=eval(x));
+        //-->
+        //]]>
+        </script>
+        <i class="icon-envelope-alt moveup"></i></a>
+          <a href="http://www.github.com/homingli"><i class="icon-github moveup"></i></a>
+          <a href="https://instagram.com/hexoli"><i class="icon-instagram moveup"></i></a>
+          <a href="https://instagram.com/hmchill"><i class="icon-instagram moveup"></i></a>
+          <a href="https://twitter.com/HoReaL"><i class="icon-twitter moveup"></i></a>
+          <a href="http://www.linkedin.com/in/homingli"><i class="icon-linkedin moveup"></i></a>
+          <a href="https://www.facebook.com/homingli"><i class="icon-facebook-sign moveup"></i></a>
+          <!-- <a href="https://plus.google.com/112443806608998053891"><i class="icon-google-plus-sign moveup"></i></a> -->
+          <a href="https://secure.flickr.com/photos/96958122@N06/"><i class="icon-flickr moveup"></i></a>
+          <a href="https://www.youtube.com/ilgnimoh"><i class="icon-youtube moveup"></i></a>
+        </h2> 
+				</section>
+
+				<section data-background="img/bg/granvilleisland.jpg">
+<h2><i class="icon-html5 zoom"></i> <i class="icon-css3 zoom"></i> Technologies</h2>
+<!--<i class="icon-android zoom"></i>  <i class="icon-linux zoom"></i>-->
+<ul>
+<li>Reveal.js by Hakim El Hattab</li>
+<li>ENKODER by Hivelogic</li>
+<li>Font Awesome</li>
+<li>HTML5, CSS3, JS</li>
+</ul>
+				</section>
+
+				<section>
+					<h1>Thank You!</h1>
+                    <div>You know <a href="#/7">where</a> to find me!</div>
+                    <br />
+                    <div>All photos are of my own. &copy; 2013 Ho Ming Li.</div>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.map"></script>
 
 <script type="text/javascript">
+setTimeout(function(){
+  setTimeout(function(){
+    setTimeout(function(){
+        $("#name").append(" Li");
+        $(".blink").css("visibility","visible");
+    },500);
+    $("#name").append(" Ming");
+  },500)
+  $("#name").append("Ho");
+},500);
+</script>
 
-//google analytics
+		<script type="text/javascript">
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+                width: "90%",
+				controls: false,
+				progress: true,
+				history: true,
+				center: true,
+                touch: true,
+                rollingLinks: false,
+                overview: false,
+                // keyboard: { 27: null }, // do nothing when ESC is pressed
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					// { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					// { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script type="text/javascript">
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+
+<script type="text/javascript">
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-33994461-1']);
@@ -28,49 +414,6 @@
   })();
 
 </script>
-<style>
-html { background-color: black; text-align: center; display: block; font-family: Verdana; color: #666}
-a { text-decoration: none; color: #666; display: block;}
 
-.zoom:hover a {
-    /* transform: scale(1.3,1.3);
-    -ms-transform: scale(1.3,1.3);
-    -webkit-transform: scale(1.3,1.3);
-    transition:  all .7s ease-in-out;
-    -ms-transform:  all .7s ease-in-out;
-    -webkit-transition: all .7s ease-in-out;
-    border: 3px solid #333;
-    box-shadow: 0px 0px 5px #333;*/
-    background-color: #666;
-    color: #000;
-}
-h1 { font-size: 200% }
-#container { width: 400px; height:200px}
-.centered {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-top: -100px;
-  margin-left: -200px;
-}
-
-</style>
-</head>
-<body>
-<div class="centered">
-<div id="container">
-MODE
-<h1 class="zoom"><a href="http://homingli.com/reveal-homingli">Presentation</a></h1>
-<h1 class="zoom"><a href="index2.html">Standard</a></h1>
-</div>
-</div>
-
-<div style="text-align:right" id="google_translate_element"></div><script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-33994461-1'}, 'google_translate_element');
-}
-</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-
-
-</body></html>
+	</body>
+</html>
